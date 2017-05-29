@@ -1,0 +1,77 @@
+body{
+  background-color: #1E69D8;
+  /*background-image: url("../img/florida.jpg");*/
+}
+form{
+  border: solid;
+  text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+  display: inline-block;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: red;
+}
+button{
+  float: right;
+}
+img{
+
+    width: 50%;
+    height: auto;
+}
+.contenido{
+  background-color: white;
+  text-align: center;
+
+}
+article{
+  display: inline-block;
+  width: 29%;
+  margin: 2%;
+}
+
+article:not(img){
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  article{
+    display: inline-block;
+    width: 46%;
+    margin: 2%;
+  }
+}
+
+@media (max-width: 500px) {
+  article{
+    display: inline-block;
+    width: 98%;
+    margin: 2%;
+  }
+}
+/*img{
+    float: left;
+    width: 328px;
+    }*/
+/*.levante{
+  float: center;
+  width: 38px;
+}*/
+/*.php{
+  background-color: blue;
+}*/

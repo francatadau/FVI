@@ -1,0 +1,8 @@
+/*!
+Iconos
+ */
+
+ .fa-search-plus:before{content:"\f00e"}
+ .fa-search-minus:before{content:"\f010"}
+ .fa-bars:before{content:"\f0c9"}
+ .fa-server:before{content:"\f233"}
